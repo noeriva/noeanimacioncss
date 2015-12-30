@@ -1,0 +1,96 @@
+
+* {
+    margin: 0px auto;
+}
+@font-face {
+font-family: "cursiva";
+src: url("fuente/BrannbollFet.ttf") format("truetype");
+}
+html {
+    background:url(imgcontacto/backgroundcontacto.png) no-repeat;
+    background-size: cover;
+    height: 771px;
+}
+a:link, a:visited, a:active, a:hover {
+    color: white;
+    text-decoration: none;
+}
+#fb {
+    z-index:1;
+    position:fixed;
+    width:50px;
+    height:50px;
+    background:url(social/fb.png);
+    margin-left:0px;
+    margin-top:100px;
+    border-radius: 0px 5px 5px 0px;
+}
+#tw {
+    z-index:1;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(social/tw.png);
+    margin-left: 0px;
+    margin-top: 160px;
+    border-radius: 0px 5px 5px 0px;
+    }
+#bh {
+    z-index:1;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(social/bh.png);
+    margin-left: 0px;
+    margin-top: 220px;
+    border-radius: 0px 5px 5px 0px;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+.botonerahead{
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+}
+li:hover {
+    display: inline-block;
+    list-style-type: none;
+   border-style: dotted 2px white;
+}
+#contacto {
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px white;
+    padding: 20px;
+    font-size: 15px;
+    font-family: verdana;
+    position: relative;
+    text-align: center;
+    margin: 100px;
+    margin-top: 400px;
+}
+#mano {
+    background: url(imgcontacto/brazo.png) no-repeat;
+    width: 246px;
+    height: 721px;
+    position: absolute;
+    margin-left: 69%;
+    margin-top: 13%;
+    animation-name: mano;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes mano {
+    50% {transform:rotate(-15deg)}
+    100% {transform:rotate(0deg)}
+}

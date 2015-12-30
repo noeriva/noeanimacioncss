@@ -1,0 +1,301 @@
+
+* {
+    margin: 0px auto;
+}
+a:link, a:visited, a:active, a:hover {
+    color: white;
+    text-decoration: none;
+}
+@font-face {
+font-family: "cursiva";
+src: url("fuente/BrannbollFet.ttf") format("truetype");
+}
+html {
+    background-color: #42210b;
+}
+:hover {
+    color:white;
+    }
+:link {
+    color:white;
+}
+#fb {
+    z-index:1;
+    position:fixed;
+    width:50px;
+    height:50px;
+    background:url(social/fb.png);
+    margin-left:0px;
+    margin-top:100px;
+    border-radius: 0px 5px 5px 0px;
+}
+#tw {
+    z-index:1;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(social/tw.png);
+    margin-left: 0px;
+    margin-top: 160px;
+    border-radius: 0px 5px 5px 0px;
+    }
+#bh {
+    z-index:1;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(social/bh.png);
+    margin-left: 0px;
+    margin-top: 220px;
+    border-radius: 0px 5px 5px 0px;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+.botonerahead{
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+}
+li:hover {
+    display: inline-block;
+    list-style-type: none;
+   border-style: dotted 2px white;
+}
+.final {
+    background-color:#F7D358;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    border-radius:  30px 30px 0px 0px;
+    margin-top: 40px;
+    font-size: 10px;
+    font-family: verdana;
+    color: #ffff99;
+    text-align: center;
+    padding-top: 10px;
+}
+.bio {
+    background: url(imgbio/head.png) no-repeat; /*imagen que falta/*/
+    width:100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    overflow:hidden;
+    position: relative;
+}
+#b {
+    background: url(imgbio/b.png) no-repeat;
+    width: 167px;
+    height: 171px;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 150px;
+    animation-name: tambaleo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform:rotate(-3deg);
+}
+#i {
+    background: url(imgbio/i.png) no-repeat;
+    width: 64px;
+    height: 184px;
+    position: absolute;
+    margin-left: 159%;
+    margin-top: 10px;
+    animation-name: tambaleo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+}
+#o {
+    background: url(imgbio/o.png) no-repeat;
+    width: 184px;
+    height: 172px;
+    position: absolute;
+    margin-left: 200%;
+    margin-top: 0px;
+    animation-name: tambaleo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes tambaleo  {
+    0%   {left:0px; top:0px;}
+    50%  {left:20px; top:0px;}
+    100% {left:0px; top:0px;}
+    }
+
+#solapa {
+    background: url(imgbio/montania.png);
+    width:662px;
+    height:202px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 20%;
+}
+@keyframes be {
+    0% {left: 2px; top: 3px}
+    50% {left: -2px; top: -3px}
+    100% {left: 2px; top: 3px}
+}
+@font-face {
+font-family: "cursiva";
+src: url("fuente/BrannbollFet.ttf") format("truetype");
+}
+#columnauno {
+font-size: 12px;
+column-count: 2;
+-moz-column-count: 2;
+-webkit-column-count: 2;
+width:70%;
+padding-top: 100px;
+font-family: verdana;
+text-align: justify;
+color: #F7D358;
+margin: 0 auto;
+line-height: 1.5;
+}
+#abieta {
+    font-size: 30px;
+    font-family: cursiva;
+    margin: 0 auto;
+    color: #F7D358;
+    text-align: center;
+    margin-top: 100px;
+}
+.frase {
+    font-size:20px;
+    font-family: cursiva;
+    margin: 0 auto;
+    color: #F7D358;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.puntos {
+    background: url(imgbio/rayas.png) no-repeat;
+    width: 354px;
+    height: 12px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.rayas {
+    background-color: #ffff99;
+    width: 354px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#noelia {
+    font-family: "cursiva";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: #ffff99;
+    background-color: 
+}
+#foto {
+    background: url(imgbio/yo.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.5;
+    margin-bottom: 40px;
+}
+#herramientas {
+     font-family: "cursiva";
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+    color: #F7D358;
+}
+#extras {
+     font-family: "cursiva";
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+    color: #F7D358;
+    background-color: 
+}
+#lista {
+    display: block;
+    font-family: verdana;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    color:#ffff99;
+    line-height: 1.5;
+}
+#espacio {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.tarjeta {
+    font-size: 15px;
+    font-family: verdana;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border-style: dotted 3px;
+}
+#uno {
+    background:url(imgbio/uno.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 12%;
+}
+#dos {
+    background:url(imgbio/2.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+     margin: 0 auto;
+    position: relative;
+}
+#tres {
+    background:url(imgbio/3.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+    position: relative;
+}
+#cuatro {
+    background:url(imgbio/4.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+    position: relative;
+}
+#cinco {
+    background:url(imgbio/5.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+    position: relative;
+}

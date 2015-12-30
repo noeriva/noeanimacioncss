@@ -1,0 +1,141 @@
+
+* {
+    margin: 0px auto;
+}
+@font-face {
+font-family: "cursiva";
+src: url("fuente/BrannbollFet.ttf") format("truetype");
+}
+html {
+    background-color: #b7ae11;
+    height: 100%;
+}
+a:link, a:visited, a:active, a:hover {
+    color: white;
+    text-decoration: none;
+}
+#fb {
+    z-index:1;
+    position:fixed;
+    width:50px;
+    height:50px;
+    background:url(social/fb.png);
+    margin-left:0px;
+    margin-top:100px;
+    border-radius: 0px 5px 5px 0px;
+}
+#tw {
+    z-index:1;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(social/tw.png);
+    margin-left: 0px;
+    margin-top: 160px;
+    border-radius: 0px 5px 5px 0px;
+    }
+#bh {
+    z-index:1;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(social/bh.png);
+    margin-left: 0px;
+    margin-top: 220px;
+    border-radius: 0px 5px 5px 0px;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+.botonerahead{
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+}
+li:hover {
+    display: inline-block;
+    list-style-type: none;
+   border-style: dotted 2px white;
+}
+.final {
+    background-color:#F7D358;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    border-radius:  30px 30px 0px 0px;
+    margin-top: 95%;
+    font-size: 10px;
+    font-family: verdana;
+    color: #ffff99;
+    text-align: center;
+    padding-top: 10px;
+}
+#construccion {
+    background: url(imgsitio/sitio.png) no-repeat;
+    width: 520px;
+    height: 360px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+#sitio {
+    font-family: "cursiva" ;
+    font-size: 40px;
+    color: #ffff99;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    margin-top: 50%;
+    z-index: 1;
+    margin-top: 300px;
+}
+#humo {
+    background: url(imgsitio/humo.png) no-repeat;
+    width: 37px;
+    height: 73px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 120px;
+    animation-name: tambaleo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+}
+@keyframes tambaleo  {
+    0%   {left:0px; top:0px;}
+    50%  {left:5px; top:5px;}
+    100% {left:0px; top:0px;}
+    }
+
+#rayas {
+    background: url(imgbio/rayas.png) no-repeat;
+    width: 354px;
+    height: 12px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+#hola {
+    font-size: 30px;
+    font-family: "cursiva" ;
+    border-radius: 10px 10px 10px 10px;
+    border-style: dotted 3px;
+    color: #ffff99;
+    background-color: #00a99d;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    line-height: 1.5;
+    text-align: center;
+}
